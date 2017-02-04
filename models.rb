@@ -12,7 +12,7 @@ class Item < ActiveRecord::Base
 end
 
 class CartItem < ActiveRecord::Base
-	belomgs_to :cart
+	belongs_to :cart
 	belongs_to :item
 end
 
